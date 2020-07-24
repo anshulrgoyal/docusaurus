@@ -30,6 +30,6 @@ jobs:
         run: yarn lerna exec -- yarn link
       - name: Build Test website
         run: yarn build
-        working-directory: ./packages/test-migrated
+        working-directory: test-migrated
         env:
           CI: true
